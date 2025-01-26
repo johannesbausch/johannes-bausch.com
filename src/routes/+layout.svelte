@@ -2,6 +2,8 @@
   import "../app.css";
   import ScrollBar from "$lib/components/layout/ScrollBar.svelte";
 
+  export const prerender: boolean = true;
+
   let innerWidth: number = 0;
   let innerHeight: number = 0;
 </script>

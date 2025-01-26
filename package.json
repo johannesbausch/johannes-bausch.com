@@ -1,5 +1,5 @@
 {
-	"name": "johannesbausch.dev",
+	"name": "johannes-bausch.com",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
@@ -22,5 +22,8 @@
 		"typescript": "^5.0.0",
 		"vite": "^5.4.11"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"@sveltejs/adapter-node": "^5.2.12",
+		"@sveltejs/adapter-static": "^3.0.8"
+	}
 }
