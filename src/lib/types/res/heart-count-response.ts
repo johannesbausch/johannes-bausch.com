@@ -1,3 +1,3 @@
 export type HeartCountRespone = {
-  count: number;
+  heartCount: number;
 }

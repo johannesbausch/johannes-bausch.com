@@ -8,10 +8,10 @@
   let heartCount: Writable<number> = writable(0);
 
   async function getHeartCount(): Promise<void> {
-    const response = await fetch('/heart-count'); // Updated path
+    const response = await fetch('/heart-count');
     if (response.ok) {
       const data: HeartCountRespone = await response.json();
-      heartCount.set(data.count);
+      heartCount.set(data.heartCount);
     }
   }
 
@@ -25,7 +25,7 @@
 
     if (response.ok) {
       const data: HeartCountRespone = await response.json();
-      heartCount.set(data.count);
+      heartCount.set(data.heartCount);
     }
   }
 
